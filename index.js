@@ -13,8 +13,8 @@ const session = require('express-session');
 const MongoStore = require('connect-mongo');
 
 
-const PORT=7000;
-// const PORT = process.env.ERS_PORT;
+
+const PORT = process.env.ERS_PORT;
 
 
 const app = express();
